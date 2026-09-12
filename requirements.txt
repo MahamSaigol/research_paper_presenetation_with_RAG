@@ -1,0 +1,12 @@
+# Phase 1: ingestion sources
+msal>=1.28.0             # Graph API auth (optional mode)
+requests>=2.31.0         # Graph API HTTP calls (optional mode)
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+# Phase 2: extraction, chunking, dedup
+pymupdf>=1.24.0          # PDF text extraction (AGPL license — see extract.py)
+# Phase 3+ (installed now so the environment is ready)
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+python-pptx>=0.6.23
